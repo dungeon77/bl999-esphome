@@ -31,11 +31,10 @@ external_components:
   - source:
       type: git
       url: https://github.com/dungeon77/bl999-esphome
-      ref: main
     components: [bl999_sensor]
 
 remote_receiver:
-  pin: D2
+  pin: 4
   id: bl999_receiver
   tolerance: 25%
   filter: 50us
